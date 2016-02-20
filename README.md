@@ -10,6 +10,7 @@ Inappropriate Photo Detection using [Clarifai's Photo Recognition API](https://w
 * Create an application to generate you Client ID and Client Secret, you'll need to enter these credentials in the 'Credentials.swift' file as so: 
 
 ```let clarifaiClientID = "YOUR_CLIENT_ID_HERE"
+
 let clarifaiClientSecret = "YOUR_CLIENT_SECRET_HERE" ```
 
 
