@@ -25,6 +25,9 @@ class ViewController: UIViewController, PhotoBrowserDelegate {
         launchBrowserButton.setTitle("Launch Photo Browser", forState: UIControlState.Normal)
         launchBrowserButton.addTarget(self, action: "launchPhotoBrowser", forControlEvents: UIControlEvents.TouchDown)
         
+        launchBrowserButton.layer.borderWidth = 2
+        launchBrowserButton.backgroundColor = UIColor(red: 90/255.0, green: 187/255.0, blue: 181/255.0, alpha: 1.0)
+        
         imageView.layer.borderColor = UIColor.whiteColor().CGColor
         imageView.layer.borderWidth = 2
         
