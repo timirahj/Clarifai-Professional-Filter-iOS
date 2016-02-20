@@ -94,6 +94,8 @@ class ImageItemRenderer: UICollectionViewCell, PHPhotoLibraryChangeObserver
     func requestResultHandler (image: UIImage?, properties: [NSObject: AnyObject]?) -> Void
     {
         PhotoBrowser.executeInMainQueue({self.imageView.image = image})
+        
+        //recognize the image here
         recognizeImage(image)
         
     }
