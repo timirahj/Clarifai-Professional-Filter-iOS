@@ -22,6 +22,7 @@ The syntax to launch the browser couldn’t be simpler (in my demonstration harn
         photoBrowserViewController.launch()
     }
 
+
 …and, as long as the delegate is defined, the selected image can be accessed via a PhotoBrowserDelegate function:
 
     func photoBrowser(didSelectImage: UIImage)
