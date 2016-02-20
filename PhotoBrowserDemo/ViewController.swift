@@ -61,7 +61,7 @@ class ViewController: UIViewController, PhotoBrowserDelegate {
             width: imageViewSide,
             height: imageViewSide)
         
-        launchBrowserButton.frame = CGRect(x: 0, y: view.frame.height - 40, width: view.frame.width, height: 40)
+        launchBrowserButton.frame = CGRect(x: 30, y: view.frame.height - 160, width: view.frame.width - 60, height: 40)
     }
 
     
