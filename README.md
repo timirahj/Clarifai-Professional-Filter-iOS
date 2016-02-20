@@ -1,13 +1,7 @@
 # Clarifai Professional Filter: iOS (Swift)
-Innapropriate Image Detection using Clarifai's Photo Recognition API
+## Inappropriate Image Detection using [Clarifai's Photo Recognition API](https://www.clarifai.com)
 
 ![screenshot](/PhotoBrowserDemo/IMG_8205.png)
-
-Original blog post: http://flexmonkey.blogspot.co.uk/2015/01/creating-phimagemanager-browserpicker.html
-
-*This project has now been updated to work under Swift 2.0 / Xcode 7 and can target both iPads and iPhones*
-
-*Updated to use peek and pop under 6s - see: http://flexmonkey.blogspot.co.uk/2015/09/3d-touch-in-swift-implementing-peek-pop.html*
 
 
 
