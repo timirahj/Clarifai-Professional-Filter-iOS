@@ -1,7 +1,7 @@
-# PhotoBrowserDemo
-A Swift image browser/picker for use with PHImageManager
+# Clarifai Professional Filter: iOS (Swift)
+Innapropriate Image Detection using Clarifai's Photo Recognition API
 
-![screenshot](/PhotoBrowserDemo/IMG_3653.PNG)
+![screenshot](/PhotoBrowserDemo/IMG_8205.png)
 
 Original blog post: http://flexmonkey.blogspot.co.uk/2015/01/creating-phimagemanager-browserpicker.html
 
@@ -9,9 +9,7 @@ Original blog post: http://flexmonkey.blogspot.co.uk/2015/01/creating-phimageman
 
 *Updated to use peek and pop under 6s - see: http://flexmonkey.blogspot.co.uk/2015/09/3d-touch-in-swift-implementing-peek-pop.html*
 
-One of the side effects of using PHImageManager for asset management in Nodality is that I can no longer use UIImagePickerController to allow my users to select their images. Therefore, I’ve spent some time creating an image browser/picker to work with PHImageManager which, as a stand alone component, I thought I’d share (GitHub repo is here).
 
-My browser appears as a modal dialog in the centre of a given UIView with a segmented control displaying different albums and a set of thumbnails of the images contained within the selected album. Not only can the user select an image, they can also toggle whether that image is a favourite.
 
 The syntax to launch the browser couldn’t be simpler (in my demonstration harness, launchPhotoBrowser() is invoked by a button press):
 
@@ -23,6 +21,7 @@ The syntax to launch the browser couldn’t be simpler (in my demonstration harn
         
         photoBrowserViewController.launch()
     }
+
 
 …and, as long as the delegate is defined, the selected image can be accessed via a PhotoBrowserDelegate function:
 
@@ -243,9 +242,9 @@ I’ve also registered my item renderer, ImageItemRenderer, as a change observer
         }
     }
 
+
 And there we have it - a nice little image browser and picker for use with PHImageManager which includes the ability to favourite images and persists its scroll position between albums.
 
 
-All the source code for this project is available in my GitHub repository here. 
-
-One little caveat - this works fine on iPad but fails when targeting iPhone. I'll take a look at this over the weekend.
+All the source code for the original PhotoBrowserDemo project can be found using the link below: 
+https://github.com/FlexMonkey/PhotoBrowserDemo
