@@ -1,7 +1,7 @@
 # Clarifai Professional Filter: iOS (Swift)
 Innapropriate Image Detection using Clarifai's Photo Recognition API
 
-![screenshot](/PhotoBrowserDemo/IMG_8205.PNG)
+![screenshot](/PhotoBrowserDemo/IMG_8205.png)
 
 Original blog post: http://flexmonkey.blogspot.co.uk/2015/01/creating-phimagemanager-browserpicker.html
 
