@@ -242,6 +242,7 @@ I’ve also registered my item renderer, ImageItemRenderer, as a change observer
         }
     }
 
+
 And there we have it - a nice little image browser and picker for use with PHImageManager which includes the ability to favourite images and persists its scroll position between albums.
 
 
