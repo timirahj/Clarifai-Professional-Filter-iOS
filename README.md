@@ -2,7 +2,7 @@
 
 Inappropriate Photo Detection: An Example of how to use [Clarifai's Photo Recognition API](https://www.clarifai.com)
 
-![screenshot](/PhotoBrowserDemo/img_8205.png)
+![screenshot](/PhotoBrowserDemo/IMG_8205.png)
 
 ## Why is this Awesome?!?
 Your social media presence has the power to speak volumes about your character! Ever think about employers sniffing through your social media profiles? Ever debate whether or not your photo is too risque to post (when you have relatives and other family members following you)? What if there was a magical filter to do the pondering for you (in less than 2 seconds)?
