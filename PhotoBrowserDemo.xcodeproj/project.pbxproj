@@ -12,7 +12,7 @@
 		265CF8421C772BA00064F9D7 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265CF8401C772BA00064F9D7 /* Credentials.swift */; };
 		265CF8441C772BE90064F9D7 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 265CF8431C772BE90064F9D7 /* libAFNetworking.a */; };
 		268021571C7823FD00D32ED6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268021561C7823FD00D32ED6 /* Social.framework */; };
-		268021611C7856F500D32ED6 /* IMG_8205.png in Resources */ = {isa = PBXBuildFile; fileRef = 268021601C7856F500D32ED6 /* IMG_8205.png */; };
+		268021631C78580300D32ED6 /* IMG_8205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268021621C78580300D32ED6 /* IMG_8205.jpg */; };
 		3EAB3E671A5E65DB00923DB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB3E661A5E65DB00923DB0 /* AppDelegate.swift */; };
 		3EAB3E691A5E65DB00923DB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB3E681A5E65DB00923DB0 /* ViewController.swift */; };
 		3EAB3E6C1A5E65DB00923DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB3E6A1A5E65DB00923DB0 /* Main.storyboard */; };
@@ -43,7 +43,7 @@
 		265CF8401C772BA00064F9D7 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Credentials.swift; path = "../../clarifai-ios-starter-master/ClarifaiApiDemo/Credentials.swift"; sourceTree = "<group>"; };
 		265CF8431C772BE90064F9D7 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Release-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
 		268021561C7823FD00D32ED6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		268021601C7856F500D32ED6 /* IMG_8205.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_8205.png; path = ../../IMG_8205.png; sourceTree = "<group>"; };
+		268021621C78580300D32ED6 /* IMG_8205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_8205.jpg; path = ../../IMG_8205.jpg; sourceTree = "<group>"; };
 		3EAB3E611A5E65DB00923DB0 /* PhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAB3E651A5E65DB00923DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EAB3E661A5E65DB00923DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				05D0D8171BB66AE400D23062 /* IMG_3653.PNG */,
-				268021601C7856F500D32ED6 /* IMG_8205.png */,
+				268021621C78580300D32ED6 /* IMG_8205.jpg */,
 			);
 			name = assets;
 			sourceTree = "<group>";
@@ -278,8 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268021611C7856F500D32ED6 /* IMG_8205.png in Resources */,
 				05D0D8181BB66AE400D23062 /* IMG_3653.PNG in Resources */,
+				268021631C78580300D32ED6 /* IMG_8205.jpg in Resources */,
 				3EAB3E6C1A5E65DB00923DB0 /* Main.storyboard in Resources */,
 				3EAB3E711A5E65DB00923DB0 /* LaunchScreen.xib in Resources */,
 				3EAB3E6E1A5E65DB00923DB0 /* Images.xcassets in Resources */,
