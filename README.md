@@ -4,6 +4,11 @@ Inappropriate Photo Detection: An Example of how to use [Clarifai's Photo Recogn
 
 ![screenshot](/PhotoBrowserDemo/img_8205.png)
 
+## Why is this Awesome?!?
+Your social media presence has the power to speak volumes about your character! Ever think about employers sniffing through your social media profiles? Ever debate whether or not your photo is too risque to post (when you have relatives and other family members following you)? What if there was a magical filter to do the pondering for you (in less than 2 seconds)?
+
+We're gonna go through how you can elimate your 'second-thought' process when it comes to your photos, by building that magical filter using Clarifai's awesome Photo Recognition API!
+
 
 ## First things first:
 
@@ -20,6 +25,7 @@ let clarifaiClientSecret = "YOUR_CLIENT_SECRET_HERE"
 ## Photo Recognition
 Clarifai's Photo Recognition method can be utilized by first creating and initializing the ClarifaiClient object to gain access to those super important elements that we talked about:
 
+### **ImageItemRenderer.swift**
 ```
 private lazy var client : ClarifaiClient = ClarifaiClient(appID: clarifaiClientID, appSecret: clarifaiClientSecret)
 ```
@@ -115,11 +121,40 @@ Pretty straight forward right? Here we're saying if any of the images contain an
                     self.label.textColor = UIColor.redColor()
               }
 
+If our images are appropriate, we update the UI accordingly as well.
+```
+              else {
+                    //Update UI
+                    self.notSuitable = false
+                    self.label.text = "Postable!"
+                    self.label.textColor = UIColor(red: 90/255.0, green: 187/255.0, blue: 181/255.0, alpha: 1.0)
+                }
+                
+            }
 
-Round of applause to #TeamClarifai for such straight forward code!
+```
+And finally, we need somwhere to call our function right?! In this case, since we are using [PhotoBrowserDemo](https://github.com/FlexMonkey/PhotoBrowserDemo), we're going to need to implement this method as the results are being fetched from our Photos Library:
+```
+ func requestResultHandler (image: UIImage?, properties: [NSObject: AnyObject]?) -> Void
+    {
+        PhotoBrowser.executeInMainQueue({self.imageView.image = image})
+        
+        //call image reconition method
+        recognizeImage(image)
+    }
+
+```
+
+And that's all folks! There you have it! Your very own magical appropriate image filter. :)
+
+Round of applause to #TeamClarifai for such majestic and straight forward code!!!
 
 ## (Courtesy: PhotoBrowserDemo)
 **PhotoBrowserDemo** is the library where the main elements of the interface were built, and where all the photos are being fetched (using PHImageManager).
 
 The source code for the original **PhotoBrowserDemo** project can be found using the link below: 
 https://github.com/FlexMonkey/PhotoBrowserDemo
+
+
+# Author
+### Timirah James, iOS Engineer
