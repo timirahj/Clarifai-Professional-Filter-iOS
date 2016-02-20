@@ -1,5 +1,5 @@
 # Clarifai Professional Filter: iOS (Swift)
-## Inappropriate Image Detection using [Clarifai's Photo Recognition API](https://www.clarifai.com)
+Inappropriate Image Detection using [Clarifai's Photo Recognition API](https://www.clarifai.com)
 
 ![screenshot](/PhotoBrowserDemo/IMG_8205.png)
 
